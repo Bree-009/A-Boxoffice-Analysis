@@ -42,4 +42,24 @@ The data used in this project was obtained from: [Box Office Mojo](https://www.b
 
   ## Conclusions
 
+- Majority of movies fall within the duration range of 80 to 150 minutes. This duration seems to strike an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film.
+
+- A higher production budget doesn't inherently guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. 
+
+- Movies rated as NR and R tend to occur most frequently, suggesting a notable presence of films falling within these rating categories.
+
+- Languages such as Mandarin Chinese, Yue Chinese, Persian, Serbian, and Swedish appear prominently in the highest-rated movies. 
+
+- Drama, Documentary, and Comedy are the most prevalent genres among the movies analyzed.
+
   ## Recommendations
+
+- Movie Durations - The observation that most movies fall within the 80 to 150-minute range suggests that this duration strikes an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film. Consider making movies that fall within this range.
+
+- A higher production budget doesn't inherently guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. The success of a movie depends on many other elements. While an adequate budget is important, the ultimate performance of a film is influenced by various factors such as production quality, cast, and set design. Focus on factors beyond budget, such as script quality, cast talent, effective marketing, and audience targeting, to optimize revenue generation.
+
+- Noting that NR (Not Rated) and R-rated movies have the highest frequencies implies a bigger market for mature and non-rated content. Tailor movie creation to target these audience segments.
+
+- Identifying Mandarin Chinese, Yue Chinese, Persian, Serbian, and Swedish as languages associated with highly-rated movies suggests potential markets where films can find success. Consider diversifying language options to reach a broader audience.
+
+- Popular Movie Genres: The insight that Drama, Documentary, and Comedy are the most made genres highlights their popularity among filmmakers and audiences. Explore these genres or combinations of them to create unique films. 
