@@ -39,7 +39,16 @@ The data used in this project was obtained from: [Box Office Mojo](https://www.b
 - The Dataset from **The Numbers** contains *5782 rows and 6 columns*. The columns are: 'id', 'release_date', 'movie', 'production_budget', 'domestic_gross', and 'worldwide_gross'. This dataset is relevant as it shows movie, how much the budget for production was, and how much income they grossed worldwide.
 
   ## Methodology
+- Knowledge Discovery in Databases
+Knowledge Discovery in Databases involves; Selection, Preprocessing, Transformation, Data Mining, Evaluation, and Utilization; all of which were used to get data from the im.db dataset. The data was cleaned and transformed data for analysis. Data was then converted data into easily readable formats for analysis. 
 
+- Data Wrangling
+Only a few of the rows, columns, and tables were relevant to the analysis.
+The unnecessary rows, columns, and tables were dropped in this step. 
+
+- Exploratory Data Analysis
+EDA was used to Identify trends in the data and Uncover patterns related to the movies doing the best in the box office.
+  
   ## Conclusions
 
 - Majority of movies fall within the duration range of 80 to 150 minutes. This duration seems to strike an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film.
