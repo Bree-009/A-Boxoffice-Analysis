@@ -1,3 +1,6 @@
+![banner](https://github.com/Bree-009/phase-1-project/assets/151629638/b46f9b3d-ff0c-4ccc-a7aa-67d82062cd07)
+
+
 # A Box Office Analysis
 ## Introduction
 Watching movies has become increasingly popular in the fast pace of modern life. People watch movies to relax, learn life skills, learn a new language, get motivation, or even as background noise as they do something else. 
