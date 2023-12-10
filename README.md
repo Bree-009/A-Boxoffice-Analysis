@@ -14,10 +14,10 @@ Microsoft wants to venture into movie production but they lack expertise in film
 This project will involve analyzing data from different sources to figure out which movies are doing the best at the box office. Insights will then be derived from the analysis to provide more information to the head of Microsoft's studio.
 
 ## Problem Statement
-After observing the success of other big companies in original video content creation, Microsoft wants to venture into movie production. They want to open a studio but they lack expertise in filmmaking. The task is to conduct an analysis of trends and successful genres doing well at the box office. The findings will then be translated into actionable insights and recommendations for the head of Microsoft's movie studio. These insights will be used to guide the decision-making process regarding the types of films Microsoft should focus on producing to maximize commercial success and audience engagement in the competitive movie industry.
+After observing the success of other big companies in original video content creation, Microsoft wants to venture into movie production. They want to open a studio but they lack expertise in filmmaking. The task is to analyze trends and genres doing well at the box office. The findings will then be translated into actionable insights and recommendations for the head of Microsoft's movie studio. These insights will be used to guide the decision-making process regarding the types of films Microsoft should focus on producing to maximize commercial success and audience engagement in the competitive movie industry.
 
 ## Main Objective
-To provide actionable insights based on an analysis into the films dominating the box office.
+To provide actionable insights based on an analysis of the films dominating the box office.
 
 ## Specific Objectives
 - Analyze datasets to find out which types of films are dominating the box office.
@@ -26,7 +26,7 @@ To provide actionable insights based on an analysis into the films dominating th
 
 ## NoteBook Structure
 1. Data collection
-2. Read data
+2. Reading data
 3. Data wrangling
 4. Exploratory Data Analysis
 5. Conclusions 
@@ -35,28 +35,28 @@ To provide actionable insights based on an analysis into the films dominating th
 ## Data Understanding
 The data used in this project was obtained from: [Box Office Mojo](https://www.boxofficemojo.com/),  [IMDB](https://www.imdb.com/),  [Rotten Tomatoes](https://www.rottentomatoes.com/), [TMDB](https://www.themoviedb.org/) and  [The Numbers](https://www.the-numbers.com/).
 
-- The **Box Office Mojo Dataset** contains *5 columns and 3387 rows*. The columns are: 'title', 'studio', 'domestic_gross', 'foreign_gross', and 'year'. This Dataset is relevant as it shows which movies studios are making and the income they have earned from the movies.
+- The **Box Office Mojo Dataset** contains *5 columns and 3387 rows*. The columns are: 'title', 'studio', 'domestic_gross', 'foreign_gross', and 'year'. This Dataset is relevant as it shows which movies movie studios are making and the income they have earned from the movies.
 - The **IMDB Dataset** contains *9 tables* each with its own columns. The tables include 'movie_basics' which has information like run times and titles of movies and 'movie_ratings' which has average ratings and number of votes a movie got.
 - The **Rotten Tomatoes Dataset** contains *1560 rows and 12 columns*. The columns are: 'id', 'synopsis', 'rating', 'genre', 'director', 'writer','theater_date', 'dvd_date', 'currency', 'box_office', 'runtime', 'studio'. This dataset provides insight into movie genres, their ratings, the writers, and even air dates.
 - The **TMDB Dataset** contains *26517 rows and 10 columns*. The columns are:'genre_ids', 'id', 'original_language', 'original_title', 'popularity', 'release_date', 'title', 'vote_average', 'vote_count'. This dataset provides extra information about original languages, popularity, and titles for movies.
-- The Dataset from **The Numbers** contains *5782 rows and 6 columns*. The columns are: 'id', 'release_date', 'movie', 'production_budget', 'domestic_gross', and 'worldwide_gross'. This dataset is relevant as it shows movie, how much the budget for production was, and how much income they grossed worldwide.
+- The Dataset from **The Numbers** contains *5782 rows and 6 columns*. The columns are: 'id', 'release_date', 'movie', 'production_budget', 'domestic_gross', and 'worldwide_gross'. This dataset is relevant as it shows the movie, how much the budget for production was, and how much income the movie grossed worldwide.
 
   ## Methodology
-#### - Knowledge Discovery in Databases
-Knowledge Discovery in Databases involves; Selection, Preprocessing, Transformation, Data Mining, Evaluation, and Utilization; all of which were used to get data from the im.db dataset. The data was cleaned and transformed data for analysis. Data was then converted data into easily readable formats for analysis. 
-
 #### - Data Wrangling
 Only a few of the rows, columns, and tables were relevant to the analysis.
 The unnecessary rows, columns, and tables were dropped in this step. 
 
 #### - Exploratory Data Analysis
 EDA was used to Identify trends in the data and Uncover patterns related to the movies doing the best in the box office.
-  
+
+#### - Knowledge Discovery in Databases
+Knowledge Discovery in Databases involves; Selection, Preprocessing, Transformation, Data Mining, Evaluation, and Utilization; all of which were used to get data from the im.db dataset. The data was cleaned and transformed data for analysis. Data was then converted data into easily readable formats for analysis. 
+
   ## Conclusions
 
-- Majority of movies fall within the duration range of 80 to 150 minutes. This duration seems to strike an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film.
+- The majority of movies fall within the duration range of 80 to 150 minutes. This duration seems to strike an optimal balance, allowing for a comprehensive narrative while maintaining the audience's engagement throughout the film.
 
-- A higher production budget doesn't inherently guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. 
+- A higher production budget doesn't guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. 
 
 - Movies rated as NR and R tend to occur most frequently, suggesting a notable presence of films falling within these rating categories.
 
@@ -66,12 +66,12 @@ EDA was used to Identify trends in the data and Uncover patterns related to the 
 
   ## Recommendations
 
-- Movie Durations - The observation that most movies fall within the 80 to 150-minute range suggests that this duration strikes an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film. Consider making movies that fall within this range.
+- Movie Durations - The observation that most movies fall within the 80 to 150-minute range suggests that this duration provides an optimal balance, allowing for a comprehensive narrative while maintaining audience engagement throughout the film. Consider making movies that fall within this duration range.
 
-- A higher production budget doesn't inherently guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. The success of a movie depends on many other elements. While an adequate budget is important, the ultimate performance of a film is influenced by various factors such as production quality, cast, and set design. Focus on factors beyond budget, such as script quality, cast talent, effective marketing, and audience targeting, to optimize revenue generation.
+- A higher production budget doesn't inherently guarantee a higher gross income, nor does a lower budget guarantee a lower gross income. The success of a movie depends on many other elements. In as much as an adequate budget is important, the ultimate performance of a film is influenced by various factors such as production quality, cast, and set design. Focus on factors beyond budget, such as script quality, cast talent, effective marketing, and audience targeting, to optimize revenue generation.
 
-- Noting that NR (Not Rated) and R-rated movies have the highest frequencies implies a bigger market for mature and non-rated content. Tailor movie creation to target these audience segments.
+- The finding that NR (Not Rated) and R-rated movies have the highest frequencies implies a bigger market for mature and non-rated content. Tailor movie creation to target these audience segments.
 
-- Identifying Mandarin Chinese, Yue Chinese, Persian, Serbian, and Swedish as languages associated with highly-rated movies suggests potential markets where films can find success. Consider diversifying language options to reach a broader audience.
+- The finding that Mandarin Chinese, Yue Chinese, Persian, Serbian, and Swedish languages were associated with highly-rated movies suggests potential markets where films can find success. Consider diversifying language options to reach a broader audience.
 
-- Popular Movie Genres: The insight that Drama, Documentary, and Comedy are the most made genres highlights their popularity among filmmakers and audiences. Explore these genres or combinations of them to create unique films. 
+- Popular Movie Genres: The finding that Drama, Documentary, and Comedy are the most made genres highlights their popularity among filmmakers and audiences. Consider these genres or combinations of them to create unique films. 
