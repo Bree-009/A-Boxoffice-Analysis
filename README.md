@@ -7,7 +7,7 @@ Watching movies has become increasingly popular in the fast pace of modern life.
 As of early 2022, Netflix, a popular streaming site, recorded  users watching over 400 million hours of content per week globally.
 
 The box office refers to the degree of success of a film or play in terms of the number of people who go to watch it or the amount of money it makes. 
-According to Medium; the recipe for creating a box office success is complex and multifaceted. It requires a combination of compelling storytelling, talented actors, stunning visuals, strategic marketing, cultural relevance, and above all else, an emotional connection with the audience.
+According to [Medium](https://medium.com/); the recipe for creating a box office success is complex and multifaceted. It requires a combination of compelling storytelling, talented actors, stunning visuals, strategic marketing, cultural relevance, and above all else, an emotional connection with the audience.
 
 
 Microsoft wants to venture into movie production but they lack expertise in filmmaking.
